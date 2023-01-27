@@ -62,7 +62,7 @@
     let header = select('#header')
     let offset = header.offsetHeight
 
-    let elementPos = select(el).offsetTop
+    let elementPos = select(el).offsetTop ``
     window.scrollTo({
       top: elementPos - offset,
       behavior: 'smooth'
